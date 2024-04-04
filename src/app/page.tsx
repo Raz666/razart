@@ -1,5 +1,6 @@
 import About from "./about/page";
-import Experience from "./career/page";
+import Experience from "./experience/page";
+import Skills from "./skills/page";
 import { titleFont } from "./ui/fonts";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
 
       <About />
       <Experience />
+      <Skills />
     </>
   );
 }
