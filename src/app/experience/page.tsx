@@ -1,11 +1,7 @@
+import { dateString } from "../ui/FormattedDate";
 import CareerEntry from "./CareerEntry";
 
 export default function Experience() {
-  const getDate = (year: number, month: number) => {
-    const rawDate = new Date(year, month);
-    return rawDate.toDateString();
-  };
-
   return (
     <section className="py-4">
       <h3 className="text-2xl">Experience</h3>
@@ -13,7 +9,8 @@ export default function Experience() {
       <CareerEntry company="British Council">
         <CareerEntry.Position
           position="Principal Front-end Developer"
-          startDate={getDate(2021, 6)}
+          startDate={dateString({ year: 2021, month: 6 })}
+          endDate={dateString({ year: 2024, month: 4 })}
         />
         <CareerEntry.Description>TBD</CareerEntry.Description>
       </CareerEntry>
@@ -25,8 +22,8 @@ export default function Experience() {
       <CareerEntry company="spaceOS">
         <CareerEntry.Position
           position="Front-end Developer"
-          startDate={getDate(2020, 5)}
-          endDate={getDate(2021, 5)}
+          startDate={dateString({ year: 2020, month: 5 })}
+          endDate={dateString({ year: 2021, month: 5 })}
         />
         <CareerEntry.Description>
           I became part of a dynamic team of great developers working on an
@@ -59,8 +56,8 @@ export default function Experience() {
         <CareerEntry.Position
           position="Team Lead"
           locationType="hybrid"
-          startDate={getDate(2019, 6)}
-          endDate={getDate(2020, 5)}
+          startDate={dateString({ year: 2019, month: 6 })}
+          endDate={dateString({ year: 2020, month: 5 })}
         />
         <CareerEntry.Description>
           Over two years into the project gave me enough insight to take over a
@@ -111,8 +108,8 @@ export default function Experience() {
         <CareerEntry.Position
           position="Front-end Developer"
           locationType="onSite"
-          startDate={getDate(2017, 1)}
-          endDate={getDate(2019, 5)}
+          startDate={dateString({ year: 2017, month: 1 })}
+          endDate={dateString({ year: 2019, month: 5 })}
         />
         <CareerEntry.Description>
           I joined a rapidly growing number of contractors working on a
@@ -147,11 +144,12 @@ export default function Experience() {
         ////////////////////////////////////////////////////////////////
       }
 
-      <CareerEntry company="Cegedim > IM Health > QuintilesIMS">
+      <CareerEntry company="Cegedim — IM Health — QuintilesIMS">
         <CareerEntry.Position
           position="Software Engineer"
-          startDate={getDate(2014, 9)}
-          endDate={getDate(2016, 12)}
+          locationType="onSite"
+          startDate={dateString({ year: 2014, month: 9 })}
+          endDate={dateString({ year: 2016, month: 12 })}
         />
         <CareerEntry.Description>
           The division I worked in, the ECC (EMEA Customization Center), was
@@ -183,8 +181,9 @@ export default function Experience() {
       <CareerEntry company="PLUM - Web Solutions">
         <CareerEntry.Position
           position="Software Engineer"
-          startDate={getDate(2014, 3)}
-          endDate={getDate(2014, 8)}
+          locationType="onSite"
+          startDate={dateString({ month: 3 })}
+          endDate={dateString({ year: 2014, month: 8 })}
         />
         <CareerEntry.Description>
           Plum is a small but feisty interactive agency specialized in
@@ -200,6 +199,49 @@ export default function Experience() {
           <li>product photos enhancement</li>
           <li>CSS code enhancement</li>
         </CareerEntry.Highlights>
+      </CareerEntry>
+
+      <CareerEntry company="Freelance">
+        <CareerEntry.Position
+          position=""
+          locationType="remote"
+          startDate={dateString({ year: 2010, month: 9 })}
+          endDate={dateString({ year: 2014, month: 2 })}
+        />
+        <CareerEntry.Description>
+          As a freelancer I used to design, build and install websites (using
+          WordPress for content management), set up and manage Google Analytics
+          and AdWords accounts, design logos, leaets, business cards and
+          documents.
+        </CareerEntry.Description>
+      </CareerEntry>
+
+      <CareerEntry company="Univox">
+        <CareerEntry.Position
+          position=""
+          locationType="onSite"
+          startDate={dateString({ month: 7 })}
+          endDate={dateString({ year: 2010, month: 8 })}
+        />
+        <CareerEntry.Description>
+          Univox was an on-line shop selling music on CDs and DVDs where I
+          helped managing the product database as well as the sales process and
+          created advertising content.
+        </CareerEntry.Description>
+      </CareerEntry>
+
+      <CareerEntry company="English For You">
+        <CareerEntry.Position
+          position=""
+          locationType="onSite"
+          startDate={dateString({ month: 7 })}
+          endDate={dateString({ year: 2009, month: 9 })}
+        />
+        <CareerEntry.Description>
+          I worked as a receptionist in a language school — providing customer
+          service, carrying out entrance exams, helping with the image campaign
+          with my picture editing skills.
+        </CareerEntry.Description>
       </CareerEntry>
     </section>
   );

@@ -1,29 +1,27 @@
+import { dateString } from "../ui/FormattedDate";
 import SkillEntry from "./SkillEntry";
 
 export default function Skills() {
-  const getDate = (year: number, month: number) => {
-    const rawDate = new Date(year, month);
-    return rawDate.toDateString();
-  };
-
   return (
     <section className="py-4">
       <h3 className="text-2xl">Education & skills</h3>
 
-      <SkillEntry skill="Education">
-        <SkillEntry.Language
-          language="Computer Science, Software Engineering"
-          level="Master of Science"
+      <SkillEntry skill="Warsaw University of Technology">
+        <SkillEntry.Education
+          field="Computer Science, Software Engineering"
+          degree="Master of Science"
+          startDate={dateString({ year: 2007, month: 10 })}
+          endDate={dateString({ year: 2013, month: 12 })}
         />
 
         <SkillEntry.TitledSection title="Courses">
           <li>
-            Master thesis: "Requirement model transformation into presentation
-            layer in Flex technology"
+            Master thesis: “Requirement model transformation into presentation
+            layer in Flex technology”
           </li>
           <li>
-            Bachelor thesis: "Web application project and mock-up — multimedia
-            catalogue"
+            Bachelor thesis: “Web application project and mock-up — multimedia
+            catalogue”
           </li>
         </SkillEntry.TitledSection>
       </SkillEntry>

@@ -1,10 +1,10 @@
-export default function SkillEntry({
+const SkillEntry = ({
   skill,
   children,
 }: {
   skill: string;
   children: React.ReactNode;
-}) {
+}) => {
   return (
     <>
       <h4 className="pb-1 pt-2 text-xl font-medium tracking-wide">{skill}</h4>
@@ -12,8 +12,27 @@ export default function SkillEntry({
       {children}
     </>
   );
-}
+};
 
+SkillEntry.Education = ({
+  field,
+  degree,
+  startDate,
+  endDate,
+}: {
+  field: string;
+  degree: string;
+  startDate: string;
+  endDate: string;
+}) => (
+  <>
+    <h5 className="pb-1 pt-2 text-sm font-semibold">{field}</h5>
+    <p className=" text-sm font-light">{degree}</p>
+    <p className="py-1 text-right text-sm font-medium">
+      {`${startDate} — ${endDate ? endDate : "present"}`}
+    </p>
+  </>
+);
 SkillEntry.Language = ({
   language,
   level,
@@ -23,7 +42,7 @@ SkillEntry.Language = ({
 }) => (
   <>
     <p className="pb-1 pt-2 text-sm font-semibold">{language}</p>
-    <p className="text-sm font-light">{level}</p>
+    <p className="pb-1 pt-2 text-sm font-semibold">{level}</p>
   </>
 );
 SkillEntry.TitledSection = ({
@@ -38,3 +57,5 @@ SkillEntry.TitledSection = ({
     <p className="text-sm font-light">{children}</p>
   </>
 );
+
+export default SkillEntry;

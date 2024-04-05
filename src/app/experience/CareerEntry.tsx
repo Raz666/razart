@@ -1,10 +1,10 @@
-export default function CareerEntry({
+const CareerEntry = ({
   company,
   children,
 }: {
   company: string;
   children: React.ReactNode;
-}) {
+}) => {
   return (
     <>
       <h4 className="pb-1 pt-2 text-xl font-medium tracking-wide">{company}</h4>
@@ -12,7 +12,7 @@ export default function CareerEntry({
       {children}
     </>
   );
-}
+};
 
 CareerEntry.Description = ({ children }: { children: React.ReactNode }) => (
   <p className="pt-2 text-sm font-light">{children}</p>
@@ -61,7 +61,4 @@ CareerEntry.Position = ({
   </>
 );
 
-export const getDate = (year: number, month: number) => {
-  const rawDate = new Date(year, month - 1);
-  return rawDate.toDateString();
-};
+export default CareerEntry;
