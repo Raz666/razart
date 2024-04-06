@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${mainFont.className} antialiased`}>
-        <main className="flex min-h-screen flex-col items-start  px-24 py-6">
+        <main className="layout mx-14 flex min-h-screen flex-col items-start bg-neutral-950/80 px-4 py-6">
           {children}
         </main>
       </body>

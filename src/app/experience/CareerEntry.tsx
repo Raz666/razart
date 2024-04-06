@@ -6,11 +6,11 @@ const CareerEntry = ({
   children: React.ReactNode;
 }) => {
   return (
-    <>
-      <h4 className="pb-1 pt-2 text-xl font-medium tracking-wide">{company}</h4>
+    <div className="my-6 rounded-md bg-black/80 p-4 text-emerald-50">
+      <h4 className="pb-1  text-xl font-medium tracking-wide">{company}</h4>
 
       {children}
-    </>
+    </div>
   );
 };
 
@@ -52,10 +52,10 @@ CareerEntry.Position = ({
 }) => (
   <>
     <h5 className="text-md font-medium tracking-wide">{position}</h5>
-    <p className="py-1 text-right text-sm font-medium">
+    <p className="py-1 text-right text-sm font-medium text-emerald-300">
       {`${startDate} — ${endDate ? endDate : "present"}`}
     </p>
-    <p className="text-right text-xs font-medium">
+    <p className="text-right text-xs font-medium text-emerald-500">
       {relationType}, {locationType}
     </p>
   </>

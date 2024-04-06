@@ -54,7 +54,7 @@ SkillEntry.TitledSection = ({
 }) => (
   <>
     <h6 className="pb-1 pt-2 text-sm font-semibold">{title}</h6>
-    <p className="text-sm font-light">{children}</p>
+    <div className="text-sm font-light">{children}</div>
   </>
 );
 
