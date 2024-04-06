@@ -19,12 +19,26 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+
+.striped-bg {
+  background-size: 5px 5px;
+  background-image: linear-gradient(
+    135deg,
+    #06b6d480 10%,
+    #0000 0,
+    #0000 50%,
+    #06b6d480 0,
+    #06b6d480 60%,
+    #0000 0,
+    #0000
+  );
 }
 
 @layer utilities {
