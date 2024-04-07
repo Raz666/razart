@@ -1,10 +1,13 @@
-import { dateString } from "../ui/FormattedDate";
+import { useTranslations } from "next-intl";
+import { dateString } from "../../ui/FormattedDate";
 import CareerEntry from "./CareerEntry";
 
 export default function Experience() {
+  const t = useTranslations("Experience");
+
   return (
     <section className="py-4">
-      <h3 className="text-2xl">Experience</h3>
+      <h3 className="text-2xl">{t("title")}</h3>
 
       <CareerEntry company="British Council">
         <CareerEntry.Position

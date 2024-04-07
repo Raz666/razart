@@ -1,4 +1,4 @@
-import { dateString } from "../ui/FormattedDate";
+import { dateString } from "../../ui/FormattedDate";
 import SkillEntry from "./SkillEntry";
 
 export default function Skills() {

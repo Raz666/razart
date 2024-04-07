@@ -1,20 +1,22 @@
 import type { Metadata } from "next";
 
-import "./globals.css";
-import { mainFont } from "./ui/fonts";
+import "../globals.css";
+import { mainFont } from "../ui/fonts";
 
 export const metadata: Metadata = {
   title: "RazArt",
   description: "Resume of Gabriela Menkiewicz",
 };
 
-export default function RootLayout({
+export default function LocaleLayout({
   children,
+  params: { locale },
 }: Readonly<{
   children: React.ReactNode;
+  params: { locale: string };
 }>) {
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body
         className={`${mainFont.className} bg-gradient-to-r from-indigo-400 from-10%  via-sky-500 via-30% to-emerald-500 to-90%  antialiased `}
       >
