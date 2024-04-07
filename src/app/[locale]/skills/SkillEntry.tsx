@@ -28,9 +28,7 @@ SkillEntry.Education = ({
   <>
     <h5 className="pb-1 pt-2 text-sm font-semibold">{field}</h5>
     <p className=" text-sm font-light">{degree}</p>
-    <p className="py-1 text-right text-sm font-medium">
-      {`${startDate} — ${endDate ? endDate : "present"}`}
-    </p>
+    <p className="py-1 text-right text-sm font-medium">{`${startDate} — ${endDate}`}</p>
   </>
 );
 SkillEntry.Language = ({

@@ -4,9 +4,140 @@
     "gm": "Gabriela Menkiewicz"
   },
   "About": {
-    "title": "About"
+    "title": "About",
+    "content": "Front-end web development is the main direction of my career path. I enjoy learning and honing new skills, both technical and soft. Leading a team has taught me quite a lot and gave me a whole new perspective which doesn’t mean I would mind getting closer to the codebase. Having worked with AngularJS for a while, I’ve been moving towards ReactJS but I stay open-minded and thrive on innovation. From what I’ve noticed in comparison with my colleagues, I’m quite diligent and pay much attention to detail — I read every e-mail I get, follow each corporate procedure and always check my work, twice. I’ve been told that editing my code is a pleasure since it’s cleanly formatted and legible — I won’t deny it, I do take pride in my work!"
   },
   "Experience": {
-    "title": "Experience"
+    "title": "Experience",
+    "present": "present",
+    "highlights": "Highlights",
+    "tech": "Technologies",
+    "tools": "Tools",
+    "company": {
+      "bc": "British Council",
+      "spaceOS": "spaceOS",
+      "cegedim": "Cegedim / IMS Health / QuintilesIMS",
+      "plum": "PLUM - Web Solutions",
+      "freelance": "Freelance",
+      "univox": "Univox",
+      "efy": "English For You"
+    },
+    "position": {
+      "principal": "Principal Front-end Developer",
+      "engineer": "Software Engineer",
+      "tester": "Tester",
+      "fe": "Front-end Developer",
+      "tl": "Team Lead"
+    },
+    "location": {
+      "remote": "remote",
+      "hybrid": "hybrid",
+      "onsite": "on-site"
+    },
+    "relation": {
+      "contract": "contract",
+      "fulltime": "full-time",
+      "parttime": "part-time"
+    },
+    "spaceOS": {
+      "desc": "I became part of a dynamic team of great developers working on an evolving startup project creating an app for workspace users and managers. My role was focused on bringing new designs to life in our web app.",
+      "hl1": "translating new design requirements into Angular code",
+      "hl2": "thoroughly testing my implementation",
+      "hl3": "keeping our codebase at top quality and efficiency",
+      "hl4": "taking active part in discussions about our organisation of work and technologies used",
+      "tech": "Angular 6, TypeScript, Sass, HTML5",
+      "tools": "VS Code, Fork, Chrome DevTools, Jira, GitHub"
+    },
+    "bc": {
+      "fe1": {
+        "desc": "I joined a rapidly growing number of contractors working on a comprehensive platform designed to enhance planning, registering and administrating examination sessions. My primary role was to develop front-end applications in coordination with the back-end code being developed at the same time. As my experience and business knowledge grew, I transitioned to designing parts of the user interface from the scratch as well.",
+        "hl1": "proactive research on readily available technology applicable in the project",
+        "hl2": "implementing given prototypes and proposing corrections whenever needed",
+        "hl3": "ensuring the proper user experience as well as accessibility",
+        "hl4": "writing unit tests for my code",
+        "hl5": "debugging font-end code and support in debugging back-end code",
+        "hl6": "estimating time needed for front-end tasks",
+        "hl7": "creating high-fidelity UI prototypes",
+        "hl8": "doing peer reviews"
+      },
+      "tl": {
+        "desc": "Over two years into the project gave me enough insight to take over a leadership role in my team. I would still design most of our prototypes but leave the development to my team and take on the responsibility for delivering whole functionalities. My focus was set on managing and meeting attainable business expectations while keeping high coding standards.",
+        "hl1": "keeping up to date with the big picture of the whole development process",
+        "hl2": "consulting development progress with architects to minimise technical debt",
+        "hl3": "doing peer review as well as keeping correct merge order",
+        "hl4": "configuring continuous integration environment and keeping it stable",
+        "hl5": "building and deploying newly developed code to the dedicated environment for testing",
+        "hl6": "holding meetings for the team (daily scrum, review/retro/planning/refinement sessions)",
+        "hl7": "building sprint plans based on material refined with the team",
+        "hl8": "coordinating work with other team leaders and development leader",
+        "hl9": "explaining and discussing effects of our work with the BI team",
+        "hl10": "supporting pre-release QA and UAT process in terms of environment maintenance, feedback gathering and scheduling improvements",
+        "hl11": "keeping my team members focused on our goals as well as their career progress"
+      },
+      "fe2": {
+        "desc": "TBD",
+        "hl1": "TBD",
+        "hl2": "TBD",
+        "hl3": "TBD",
+        "hl4": "TBD",
+        "hl5": "TBD"
+      }
+    },
+    "cegedim": {
+      "desc": "The division I worked in, the ECC (EMEA Customization Center), was responsible for deployment and technical support of Nexxus Mobile Intelligence — a leading customer relationship management system dedicated to life sciences on the market. We provided our technical skills as well as deep knowledge of the CRM in all of its supported versions to our pharmaceutical clients around the globe.",
+      "hl1": "front-end configuration of the CRM",
+      "hl2": "writing reports in PL/SQL and applying them in the CRM",
+      "hl3": "optimising and correcting existing PL/SQL queries",
+      "hl4": "enhancing user experience using server-side (C#) and client-side (Javascript) scripts",
+      "hl5": "finding and applying best solutions to user-reported requests for data analysis"
+    },
+    "plum": {
+      "desc": "Plum is a small but feisty interactive agency specialized in e-commerce. Although I was officially employed as a tester, I quickly started doing daily tasks of a front-end developer.",
+      "hl1": "pre- and post-release tests",
+      "hl2": "Magento system management and configuration",
+      "hl3": "design, preparation, tests and sending newsletters using Freshmail",
+      "hl4": "product photos enhancement",
+      "hl5": "CSS code enhancement"
+    },
+    "freelance": {
+      "desc": "As a freelancer I used to design, build and install websites (using WordPress for content management), set up and manage Google Analytics and AdWords accounts, design logos, leaets, business cards and documents."
+    },
+    "univox": {
+      "desc": "Univox was an on-line shop selling music on CDs and DVDs where I helped managing the product database as well as the sales process and created advertising content."
+    },
+    "efy": {
+      "desc": "I worked as a receptionist in a language school — providing customer service, carrying out entrance exams, helping with the image campaign with my picture editing skills."
+    }
+  },
+  "Education": {
+    "title": "Education & skills",
+    "pw": {
+      "title": "Warsaw University of Technology",
+      "fields": "Computer Science, Software Engineering",
+      "degree": "Master of Science",
+      "courses": "Courses",
+      "master": "Master thesis: “Requirement model transformation into presentation layer in Flex technology”",
+      "bachelor": "Bachelor thesis: “Web application project and mock-up — multimedia catalogue”"
+    },
+    "skills": "Skills",
+    "dev": "Development",
+    "platforms": "Platforms",
+    "soft": "Development software",
+    "graphics": "Image editing software",
+    "doc": "Documentation software",
+    "interests": "Interests",
+    "tech": "Technology & Science",
+    "fantasy": "Fantasy & Sci-Fi",
+    "rpg": "Role-playing games",
+    "japanese": "Japanese",
+    "languages": {
+      "title": "Languages",
+      "english": "English",
+      "polish": "Polish",
+      "japanese": "Japanese",
+      "proficient": "Full proficiency",
+      "native": "Native speaker",
+      "intermediate": "Intermediate"
+    }
   }
 }

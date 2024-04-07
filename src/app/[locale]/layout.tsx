@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
-import "../globals.css";
-import { mainFont } from "../ui/fonts";
+import '../globals.css';
+import { mainFont } from '../ui/fonts';
 
 export const metadata: Metadata = {
-  title: "RazArt",
-  description: "Resume of Gabriela Menkiewicz",
+  title: 'RazArt',
+  description: 'Resume of Gabriela Menkiewicz',
 };
 
 export default function LocaleLayout({
@@ -30,11 +30,11 @@ export default function LocaleLayout({
                             lg:bg-gradient-to-r lg:from-black/60 lg:via-black/0 lg:to-black/60
                           "
               >
-                <main className="layout mx-2 flex min-h-screen flex-col items-start bg-neutral-950/80 shadow-xl shadow-black md:mx-14 lg:mx-auto lg:max-w-screen-md">
-                  <div className="border-x border-black/20 px-4 py-6  ">
+                <div className="layout mx-2  bg-neutral-950/80 shadow-xl shadow-black md:mx-14 lg:mx-auto lg:max-w-screen-md">
+                  <main className="flex min-h-screen flex-col items-start border-x border-black/20 px-4 py-6  ">
                     {children}
-                  </div>
-                </main>
+                  </main>
+                </div>
               </div>
             </div>
           </div>
