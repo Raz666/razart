@@ -16,6 +16,12 @@ export default function Experience() {
           endDate={useDateString({ year: 2024, month: 4 })}
         />
         <CareerEntry.Description>{t('bc.fe2.desc')}</CareerEntry.Description>
+        <Highlights>
+          <li>{t('bc.fe2.hl1')}</li>
+          <li>{t('bc.fe2.hl2')}</li>
+          <li>{t('bc.fe2.hl3')}</li>
+          <li>{t('bc.fe2.hl4')}</li>
+        </Highlights>
       </CareerEntry>
 
       <CareerEntry company={t('company.spaceOS')}>

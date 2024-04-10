@@ -6,7 +6,11 @@
   },
   "About": {
     "title": "About",
-    "content": "Front-end web development is the main direction of my career path. I enjoy learning and honing new skills, both technical and soft. Leading a team has taught me quite a lot and gave me a whole new perspective which doesn’t mean I would mind getting closer to the codebase. Having worked with AngularJS for a while, I’ve been moving towards ReactJS but I stay open-minded and thrive on innovation. From what I’ve noticed in comparison with my colleagues, I’m quite diligent and pay much attention to detail — I read every e-mail I get, follow each corporate procedure and always check my work, twice. I’ve been told that editing my code is a pleasure since it’s cleanly formatted and legible — I won’t deny it, I do take pride in my work!"
+    "content": {
+      "line1": "Frontend developer with a knack for user experience and visual aesthetics.",
+      "line2": "Currently enjoying the TypeScript realm of React.js and dabbing fingers into React Native as well as Next.js.",
+      "line3": "Passionate about spending quality time surrounded by nature as well as loosing oneself in well written storytelling  via any medium."
+    }
   },
   "Experience": {
     "title": "Experience",
@@ -76,11 +80,11 @@
         "hl11": "keeping my team members focused on our goals as well as their career progress"
       },
       "fe2": {
-        "desc": "TBD",
-        "hl1": "TBD",
-        "hl2": "TBD",
-        "hl3": "TBD",
-        "hl4": "TBD",
+        "desc": "I was welcomed back into a team building a brand new registration platform capable of scaling to offer new products as well as handling a variety of self-serve features.",
+        "hl1": "developing structures unifying data coming from up to 4 separate APIs in a way that stays seamless to the end user",
+        "hl2": "worked on an integration with translation management system along with switching the whole platform to a new set of translated endpoints",
+        "hl3": "ensured on-the-fly language switching when parts of the interface require API re-fetching",
+        "hl4": "built a mechanism handling API errors so that translated messages are easily managed",
         "hl5": "TBD"
       }
     },
