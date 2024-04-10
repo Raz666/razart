@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { useDateString } from '../../ui/FormattedDate';
+import { useDateString } from '@app/ui/FormattedDate';
 import SkillEntry from './SkillEntry';
 
 export default function Skills() {

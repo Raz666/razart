@@ -1,12 +1,12 @@
 import { useTranslations } from 'next-intl';
-import { useDateString } from '../../ui/FormattedDate';
+import { useDateString } from '@app/ui/FormattedDate';
 import CareerEntry, { Highlights, Position } from './CareerEntry';
 
 export default function Experience() {
   const t = useTranslations('Experience');
 
   return (
-    <section className="py-4">
+    <section className="">
       <h3 className="text-2xl">{t('title')}</h3>
 
       <CareerEntry company={t('company.bc')}>

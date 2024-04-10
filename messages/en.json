@@ -2,15 +2,11 @@
   "Home": {
     "razart": "RazArt",
     "gm": "Gabriela Menkiewicz",
-    "gdpr": "I authorize the processing of personal data contained in my curriculum vitae based on art. 13 GDPR 679/16."
-  },
-  "About": {
-    "title": "About",
-    "content": {
+    "about": {
       "line1": "Frontend developer with a knack for user experience and visual aesthetics.",
-      "line2": "Currently enjoying the TypeScript realm of React.js and dabbing fingers into React Native as well as Next.js.",
-      "line3": "Passionate about spending quality time surrounded by nature as well as loosing oneself in well written storytelling  via any medium."
-    }
+      "line3": "Passionate about long walks as well as loosing oneself in well written storytelling."
+    },
+    "gdpr": "I authorize the processing of personal data contained in my curriculum vitae based on art. 13 GDPR 679/16."
   },
   "Experience": {
     "title": "Experience",
