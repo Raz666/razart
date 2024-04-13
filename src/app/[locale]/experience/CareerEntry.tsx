@@ -3,36 +3,13 @@ import { useTranslations } from 'next-intl';
 const CareerEntry = ({
   company,
   children,
-}: {
-  company: string;
-  children: React.ReactNode;
-}) => {
-  return (
-    <div className="relative mb-6 mt-10 rounded-md bg-black/80 px-4 pb-4 pt-2 text-emerald-50 shadow-lg shadow-black/20 print:bg-white print:text-black print:shadow-none ">
-      <h4
-        className="absolute -top-7 left-2 pb-1 text-xl font-extralight tracking-wide 
-      "
-      >
-        {company}
-      </h4>
-
-      {children}
-    </div>
-  );
-};
-
-export const Position = ({
-  position,
   relationType = 'contract',
   locationType = 'remote',
-  startDate,
-  endDate,
 }: {
-  position: string;
+  company: string;
   relationType?: 'contract' | 'fullTime' | 'partTime' | null;
   locationType?: 'remote' | 'hybrid' | 'onSite';
-  startDate: string;
-  endDate?: string;
+  children: React.ReactNode;
 }) => {
   const t = useTranslations('Experience');
 
@@ -59,15 +36,39 @@ export const Position = ({
   };
 
   return (
-    <div className="flex justify-between">
-      <h5 className="text-md font-normal tracking-wide">{position}</h5>
-      <div>
-        <p className="pb-1 text-right text-sm font-medium text-emerald-300 print:text-black">{`${startDate} — ${endDate ? endDate : t('present')}`}</p>
-        <p className="text-right text-xs font-medium text-emerald-500 print:text-black">
+    <>
+      <div className="flex items-baseline justify-between">
+        <h4 className="  text-xl font-extralight tracking-wide">
+          {company}
+        </h4>
+        <p className="text-right text-xs font-medium text-teal-500 opacity-90 print:text-black">
           {relationType && `${relationTypeName()}, `}
           {locationTypeName()}
         </p>
       </div>
+
+      {children}
+    </>
+  );
+};
+
+export const Position = ({
+  position,
+  startDate,
+  endDate,
+}: {
+  position: string;
+  startDate: string;
+  endDate?: string;
+}) => {
+  const t = useTranslations('Experience');
+
+  return (
+    <div className="flex items-baseline justify-between">
+      <h5 className="text-md font-normal tracking-wide opacity-95">
+        {position}
+      </h5>
+      <p className="pb-1 text-right text-sm font-medium text-teal-300 opacity-90 print:text-black">{`${startDate} — ${endDate ? endDate : t('present')}`}</p>
     </div>
   );
 };
@@ -86,7 +87,7 @@ export const Highlights = ({ children }: { children: React.ReactNode }) => {
 };
 
 CareerEntry.Description = ({ children }: { children: React.ReactNode }) => (
-  <p className="py-4 text-sm font-light">{children}</p>
+  <p className="py-4 text-sm font-light last:pb-0">{children}</p>
 );
 
 CareerEntry.TitledSection = ({

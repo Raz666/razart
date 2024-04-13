@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import '@app/globals.css';
 import { mainFont } from '@app/ui/fonts';
 import Header from '@locale/header/page';
-import About from '@locale/about/page';
+import { Divider } from '@components/index';
 
 export const metadata: Metadata = {
   title: 'RazArt',
@@ -39,16 +39,15 @@ export default function LocaleLayout({
                             print:bg-white print:from-white print:to-white
                           "
                 >
-                  <div className="  bg-gradient-to-r from-black/0 from-20% via-black/50 via-50% to-black/0 to-80%  print:bg-white ">
+                  <div className="  bg-gradient-to-r from-black/0 from-20% via-black/50 via-50% to-black/0 to-80%  print:from-white ">
                     <div className="mx-auto flex flex-col items-start px-4 py-6 md:max-w-screen-md ">
                       <Header />
                     </div>
                   </div>
-                  <div className="h-[1px] bg-gradient-to-r from-black/0 from-25%  via-white/30 via-50%  to-black/0 to-75%  print:bg-white "></div>
-                  <div className="mb-6  h-[1px] bg-gradient-to-r from-black/0 from-25%  via-black/30 via-50%  to-black/0 to-75%  print:bg-white "></div>
+                  <Divider />
 
-                  <div className="layout mx-2  bg-neutral-950/80 shadow-xl shadow-black sm:mx-14 md:mx-auto md:max-w-screen-md print:bg-white print:shadow-none">
-                    <main className="flex min-h-screen flex-col items-start border-x border-black/20 px-4 py-6  print:mb-40 print:border-none">
+                  <div className="layout mx-2  bg-neutral-950/60 shadow-xl shadow-black sm:mx-14 md:mx-auto md:max-w-screen-md print:bg-white print:shadow-none">
+                    <main className="flex min-h-screen flex-col items-start border-x border-black/20 px-7 py-4  print:mb-40 print:border-none">
                       {children}
                     </main>
                     <div className="invisible fixed bottom-0  text-xs print:visible ">
