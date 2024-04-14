@@ -28,7 +28,7 @@ export default function Experience() {
         </Card>
       </CareerEntry>
 
-      <Divider darker />
+      <Divider darker className='print:hidden' />
 
       <CareerEntry company={t('company.spaceOS')}>
         <Position
@@ -53,7 +53,7 @@ export default function Experience() {
         </Card>
       </CareerEntry>
 
-      <Divider darker />
+      <Divider darker className='print:hidden' />
 
       <CareerEntry company={t('company.bc')} locationType="hybrid">
         <Position
@@ -100,7 +100,7 @@ export default function Experience() {
         </Card>
       </CareerEntry>
 
-      <Divider darker />
+      <Divider darker className='print:hidden' />
 
       <CareerEntry company={t('company.cegedim')} locationType="onSite">
         <Position
@@ -120,7 +120,7 @@ export default function Experience() {
         </Card>
       </CareerEntry>
 
-      <Divider darker />
+      <Divider darker className='print:hidden' />
 
       <CareerEntry company={t('company.plum')} locationType="onSite">
         <Position
@@ -140,7 +140,7 @@ export default function Experience() {
         </Card>
       </CareerEntry>
 
-      <Divider darker />
+      <Divider darker className='print:hidden' />
 
       <CareerEntry
         company={t('company.freelance')}
@@ -159,7 +159,7 @@ export default function Experience() {
         </Card>
       </CareerEntry>
 
-      <Divider darker />
+      <Divider darker className='print:hidden' />
 
       <CareerEntry
         company={t('company.univox')}
@@ -176,7 +176,7 @@ export default function Experience() {
         </Card>
       </CareerEntry>
 
-      <Divider darker />
+      <Divider darker className='print:hidden' />
 
       <CareerEntry
         company={t('company.efy')}

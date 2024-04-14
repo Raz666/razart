@@ -21,7 +21,7 @@ export const Divider = ({
       />
       <div
         className={clsx(
-          'mb-6 h-[1px] bg-gradient-to-r from-black/0 from-25% via-50%  to-black/0 to-75% ',
+          'mb-4 h-[1px] bg-gradient-to-r from-black/0 from-25% via-50%  to-black/0 to-75% ',
           {
             'via-black/30': !darker,
             'via-black/50': darker,

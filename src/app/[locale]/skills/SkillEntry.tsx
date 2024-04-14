@@ -7,7 +7,7 @@ const SkillEntry = ({
 }) => {
   return (
     <>
-      <h4 className="pb-1 pt-2 text-xl font-medium tracking-wide">{skill}</h4>
+      <h4 className="text-xl font-extralight tracking-wide">{skill}</h4>
 
       {children}
     </>
@@ -38,10 +38,10 @@ SkillEntry.Language = ({
   language: string;
   level: string;
 }) => (
-  <>
-    <p className="pb-1 pt-2 text-sm font-semibold">{language}</p>
-    <p className="pb-1 pt-2 text-sm font-semibold">{level}</p>
-  </>
+  <p className="pt-2 text-sm">
+    <span className="font-normal">{language}: </span>
+    <span className="font-semibold">{level}</span>
+  </p>
 );
 SkillEntry.TitledSection = ({
   title,
@@ -51,7 +51,9 @@ SkillEntry.TitledSection = ({
   children: React.ReactNode;
 }) => (
   <>
-    <h6 className="pb-1 pt-2 text-sm font-semibold">{title}</h6>
+    <h6 className="text-md pb-1 font-normal tracking-wide opacity-95">
+      {title}
+    </h6>
     <div className="text-sm font-light">{children}</div>
   </>
 );

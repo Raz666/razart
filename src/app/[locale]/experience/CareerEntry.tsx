@@ -37,11 +37,9 @@ const CareerEntry = ({
 
   return (
     <>
-      <div className="flex items-baseline justify-between">
-        <h4 className="  text-xl font-extralight tracking-wide">
-          {company}
-        </h4>
-        <p className="text-right text-xs font-medium text-teal-500 opacity-90 print:text-black">
+      <div className="flex flex-wrap items-baseline justify-between">
+        <h4 className="text-xl font-extralight tracking-wide">{company}</h4>
+        <p className="ml-auto justify-end text-right text-xs font-medium text-teal-500 opacity-90 print:text-black">
           {relationType && `${relationTypeName()}, `}
           {locationTypeName()}
         </p>
@@ -64,11 +62,11 @@ export const Position = ({
   const t = useTranslations('Experience');
 
   return (
-    <div className="flex items-baseline justify-between">
-      <h5 className="text-md font-normal tracking-wide opacity-95">
+    <div className="flex flex-wrap items-baseline justify-between">
+      <h5 className="text-md font-normal tracking-wide opacity-95 ">
         {position}
       </h5>
-      <p className="pb-1 text-right text-sm font-medium text-teal-300 opacity-90 print:text-black">{`${startDate} — ${endDate ? endDate : t('present')}`}</p>
+      <p className="ml-auto pb-1 text-right text-sm font-medium text-teal-300 opacity-90 print:text-black">{`${startDate} — ${endDate ? endDate : t('present')}`}</p>
     </div>
   );
 };

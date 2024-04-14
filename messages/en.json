@@ -4,7 +4,7 @@
     "gm": "Gabriela Menkiewicz",
     "about": {
       "line1": "Frontend developer with a knack for user experience and visual aesthetics.",
-      "line3": "Passionate about long walks as well as loosing oneself in well written storytelling."
+      "line2": "Passionate about long walks as well as loosing oneself in well written storytelling."
     },
     "gdpr": "I authorize the processing of personal data contained in my curriculum vitae based on art. 13 GDPR 679/16."
   },
@@ -68,7 +68,7 @@
         "hl3": "doing peer review as well as keeping correct merge order",
         "hl4": "configuring continuous integration environment and keeping it stable",
         "hl5": "building and deploying newly developed code to the dedicated environment for testing",
-        "hl6": "holding meetings for the team (daily scrum, review/retro/planning/refinement sessions)",
+        "hl6": "holding meetings for the team (daily scrum, review / retro / planning / refinement sessions)",
         "hl7": "building sprint plans based on material refined with the team",
         "hl8": "coordinating work with other team leaders and development leader",
         "hl9": "explaining and discussing effects of our work with the BI team",
@@ -123,14 +123,7 @@
     "skills": "Skills",
     "dev": "Development",
     "platforms": "Platforms",
-    "soft": "Development software",
-    "graphics": "Image editing software",
-    "doc": "Documentation software",
-    "interests": "Interests",
-    "tech": "Technology & Science",
-    "fantasy": "Fantasy & Sci-Fi",
-    "rpg": "Role-playing games",
-    "japanese": "Japanese",
+    "soft": "Software",
     "languages": {
       "title": "Languages",
       "english": "English",
@@ -140,5 +133,10 @@
       "native": "Native speaker",
       "intermediate": "Intermediate"
     }
+  },
+  "Interests": {
+    "title": "Interests",
+    "line1": "Indoors I enjoy gaming, reading and watching all sorts of fiction as well as playing cardboard games.",
+    "line2": "Outdoors I usually simply wander wherever my feet would take me."
   }
 }
