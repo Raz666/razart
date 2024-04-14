@@ -3,11 +3,11 @@ import SkillEntry from './SkillEntry';
 import { Divider, Pill, PillWrap } from '@components/index';
 
 export function Skills() {
-  const t = useTranslations('Education');
+  const t = useTranslations('Skills');
 
   return (
-    <section className="py-2">
-      <SkillEntry skill={t('skills')}>
+    <section className="py-2" id="skills">
+      <SkillEntry skill={t('title')}>
         <SkillEntry.TitledSection title={t('dev')}>
           <PillWrap>
             <Pill>React.js</Pill>

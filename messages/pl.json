@@ -1,12 +1,142 @@
 {
   "Home": {
     "razart": "RazArt",
-    "gm": "Gabriela Menkiewicz"
-  },
-  "About": {
-    "title": "O mnie"
+    "gm": "Gabriela Menkiewicz",
+    "about": {
+      "line1": "Frontend deweloper z zamiłowaniem do UX-u i estetyki wizualnej.",
+      "line2": "Z pasją do długich spacerów oraz zatracania się w dobrze napisanych opowieściach."
+    },
+    "gdpr": "Wyrażam zgodę na przetwarzanie danych osobowych zawartych w moim CV na podstawie art. 13 RODO 679/16."
   },
   "Experience": {
-    "title": "Doświadczenie"
+    "title": "Doświadczenie",
+    "present": "dziś",
+    "highlights": "Najważniejsze",
+    "tech": "Technologie",
+    "tools": "Narzędzia",
+    "company": {
+      "bc": "British Council",
+      "spaceOS": "spaceOS",
+      "cegedim": "Cegedim / IMS Health / QuintilesIMS",
+      "plum": "PLUM - Web Solutions",
+      "freelance": "Freelance",
+      "univox": "Univox",
+      "efy": "English For You"
+    },
+    "position": {
+      "principal": "Principal Front-end Developer",
+      "engineer": "Software Engineer",
+      "tester": "Tester",
+      "fe": "Front-end Developer",
+      "tl": "Team Lead"
+    },
+    "location": {
+      "remote": "zdalnie",
+      "hybrid": "hybrydowo",
+      "onsite": "stacjonarnie"
+    },
+    "relation": {
+      "contract": "kontrakt",
+      "fulltime": "umowa o pracę",
+      "parttime": "zlecenie"
+    },
+    "spaceOS": {
+      "desc": "Dołączyłam do dynamicznego zespołu świetnych programistów pracujących nad ewoluującym projektem startupu, tworzącym aplikację dla użytkowników i menedżerów przestrzeni pracy. Moją rolą było przenoszenie nowych projektów graficznych na naszą aplikację internetową.",
+      "hl1": "przetwarzanie nowych wymagań projektowych na kod Angular",
+      "hl2": "staranne testowanie mojej implementacji",
+      "hl3": "utrzymywanie naszej bazy kodu na najwyższym poziomie jakości i efektywności",
+      "hl4": "aktywny udział w dyskusjach na temat organizacji pracy i używanych technologii",
+      "tech": "Angular 6, TypeScript, Sass, HTML5",
+      "tools": "VS Code, Fork, Chrome DevTools, Jira, GitHub"
+    },
+    "bc": {
+      "fe1": {
+        "desc": "Dołączyłam do dynamicznie rosnącej grupy kontraktorów pracujących nad kompleksową platformą zaprojektowaną w celu usprawnienia planowania, rejestracji i administracji sesjami egzaminacyjnymi. Moją główną rolą było opracowywanie aplikacji front-endowych we współpracy z kodem back-endowym rozwijanym w tym samym czasie. W miarę jak rosła moja wiedza i doświadczenie biznesowe, zaczęłam projektować elementy interfejsu użytkownika od podstaw.",
+        "hl1": "proaktywne badania dostępnej technologii zastosowalnej w projekcie",
+        "hl2": "implementowanie dostarczonych prototypów i proponowanie korekt w razie potrzeby",
+        "hl3": "zapewnienie odpowiedniego doświadczenia użytkownika oraz dostępności",
+        "hl4": "pisanie testów jednostkowych dla mojego kodu",
+        "hl5": "debugowanie kodu front-endowego oraz wsparcie w debugowaniu kodu back-endowego",
+        "hl6": "szacowanie czasu potrzebnego na zadania front-endowe",
+        "hl7": "tworzenie prototypów interfejsu użytkownika wysokiej jakości",
+        "hl8": "przeprowadzanie recenzji kodu przez kolegów"
+      },
+      "tl": {
+        "desc": "Po dwóch latach pracy w projekcie nabyłam wystarczającą wiedzę, aby przejąć rolę lidera w moim zespole. Nadal projektowałam większość naszych prototypów, ale prace nad ich rozwinięciem pozostawiałam mojemu zespołowi, biorąc na siebie odpowiedzialność za dostarczanie całych funkcjonalności. Skupiłam się na zarządzaniu i spełnianiu osiągalnych oczekiwań biznesowych, zachowując wysokie standardy kodowania.",
+        "hl1": "utrzymywanie się na bieżąco z całością procesu rozwoju",
+        "hl2": "konsultowanie postępu prac rozwojowych z architektami w celu minimalizacji długu technicznego",
+        "hl3": "recenzowanie pracy kolegów oraz zachowywanie poprawnej kolejności scalania",
+        "hl4": "konfigurowanie środowiska ciągłej integracji i utrzymywanie go w stabilności",
+        "hl5": "budowanie i wdrażanie nowo opracowanego kodu do dedykowanego środowiska testowego",
+        "hl6": "organizowanie spotkań dla zespołu (codzienny scrum, sesje przeglądowe/retrospektywne/planowania/uszlachetniania)",
+        "hl7": "tworzenie planów sprintu na podstawie materiałów uszlachetnionych zespołem",
+        "hl8": "koordynacja pracy z innymi liderami zespołów i liderem rozwoju",
+        "hl9": "wyjaśnianie i omawianie efektów naszej pracy z zespołem BI",
+        "hl10": "wsparcie w procesie wstępnego testowania QA i UAT pod względem utrzymania środowiska, gromadzenia opinii i planowania usprawnień",
+        "hl11": "utrzymywanie skupienia członków zespołu na naszych celach oraz ich postępach zawodowych"
+      },
+      "fe2": {
+        "desc": "Zostałam ponownie przyjęta do zespołu budującego zupełnie nową platformę rejestracyjną zdolną do skalowania w celu oferowania nowych produktów oraz obsługi różnorodnych funkcji samoobsługowych.",
+        "hl1": "rozwijanie struktur unifikujących dane pochodzące z do 4 oddzielnych interfejsów API w sposób pozostający niewidoczny dla użytkownika końcowego",
+        "hl2": "praca nad integracją z systemem zarządzania tłumaczeniami oraz przełączenie całej platformy na nowy zestaw przetłumaczonych punktów końcowych",
+        "hl3": "zapewnienie dynamicznej zmiany języka interfejsu w przypadku, gdy części interfejsu wymagają ponownego pobierania danych z API",
+        "hl4": "budowanie mechanizmu obsługującego błędy API, aby tłumaczone komunikaty były łatwo zarządzane",
+        "hl5": "TBD"
+      }
+    },
+    "cegedim": {
+      "desc": "Dział, w którym pracowałam, ECC (EMEA Customization Center), był odpowiedzialny za wdrożenie i wsparcie techniczne Nexxus Mobile Intelligence — wiodącego systemu zarządzania relacjami z klientami dedykowanego branży farmaceutycznej na rynku. Świadczyliśmy nasze umiejętności techniczne oraz głęboką wiedzę o CRM we wszystkich obsługiwanych przez niego wersjach dla naszych klientów farmaceutycznych na całym świecie.",
+      "hl1": "konfiguracja front-endu CRM",
+      "hl2": "pisanie raportów w PL/SQL i ich zastosowanie w CRM",
+      "hl3": "optymalizacja i poprawa istniejących zapytań PL/SQL",
+      "hl4": "usprawnianie doświadczenia użytkownika za pomocą skryptów po stronie serwera (C#) i klienta (Javascript)",
+      "hl5": "znajdowanie i stosowanie najlepszych rozwiązań dla zgłoszonych przez użytkowników żądań dotyczących analizy danych"
+    },
+    "plum": {
+      "desc": "Plum to małe, ale zacięte biuro interaktywne specjalizujące się w e-commerce. Choć oficjalnie pracowałem jako tester, szybko zacząłem wykonywać codzienne zadania front-end developera.",
+      "hl1": "testy przed i po wdrożeniu",
+      "hl2": "zarządzanie i konfiguracja systemu Magento",
+      "hl3": "projektowanie, przygotowanie, testowanie i wysyłanie newsletterów za pomocą Freshmail",
+      "hl4": "usprawnienie zdjęć produktów",
+      "hl5": "usprawnienie kodu CSS"
+    },
+    "freelance": {
+      "desc": "Jako freelancerka zajmowałam się projektowaniem, budowaniem i instalacją stron internetowych (korzystając z systemu WordPress do zarządzania treścią), konfiguracją i zarządzaniem kontami Google Analytics i AdWords, projektowaniem logo, ulotek, wizytówek i dokumentów."
+    },
+    "univox": {
+      "desc": "Univox to sklep internetowy sprzedający muzykę na płytach CD i DVD, gdzie pomagałem w zarządzaniu bazą produktów oraz procesem sprzedaży oraz tworzyłem treści reklamowe."
+    },
+    "efy": {
+      "desc": "Pracowałam jako recepcjonistka w szkole językowej — świadcząc obsługę klienta, przeprowadzając egzaminy wstępne, pomagając w kampanii wizerunkowej dzięki umiejętnościom edycji zdjęć."
+    }
+  },
+  "Education": {
+    "title": "Wykształcenie i umiejętności",
+    "pw": {
+      "title": "Politechnika Warszawska",
+      "fields": "Informatyka, Inżynieria Oprogramowania",
+      "degree": "Magister inżynier",
+      "courses": "Kursy",
+      "master": "Praca magisterska: „Transformacja modeli wymagań w kod warstw prezentacji w technologii Flex”",
+      "bachelor": "Praca licencjacka: „Projekt portalu internetowego — katalog multimedialny”"
+    },
+    "skills": "Umiejętności",
+    "dev": "Technologie",
+    "platforms": "Platformy",
+    "soft": "Oprogramowanie",
+    "languages": {
+      "title": "Języki",
+      "english": "Angielski",
+      "polish": "Polski",
+      "japanese": "Japoński",
+      "proficient": "biegły",
+      "native": "ojczysty",
+      "elementary": "podstawowy"
+    }
+  },
+  "Interests": {
+    "title": "Zainteresowania",
+    "line1": "W zaciszu domowym lubię grać, czytać i oglądać wszelkiego rodzaju fikcję oraz grać w gry planszowe.",
+    "line2": "Na zewnątrz zazwyczaj po prostu wędruję, dokąd mnie nogi poniosą."
   }
 }

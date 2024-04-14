@@ -111,7 +111,7 @@
     }
   },
   "Education": {
-    "title": "Education & skills",
+    "title": "Education",
     "pw": {
       "title": "Warsaw University of Technology",
       "fields": "Computer Science, Software Engineering",
@@ -119,20 +119,22 @@
       "courses": "Courses",
       "master": "Master thesis: “Requirement model transformation into presentation layer in Flex technology”",
       "bachelor": "Bachelor thesis: “Web application project and mock-up — multimedia catalogue”"
-    },
-    "skills": "Skills",
+    }
+  },
+  "Skills": {
+    "title": "Skills",
     "dev": "Development",
     "platforms": "Platforms",
-    "soft": "Software",
-    "languages": {
-      "title": "Languages",
-      "english": "English",
-      "polish": "Polish",
-      "japanese": "Japanese",
-      "proficient": "Full proficiency",
-      "native": "Native speaker",
-      "intermediate": "Intermediate"
-    }
+    "soft": "Software"
+  },
+  "Languages": {
+    "title": "Languages",
+    "english": "English",
+    "polish": "Polish",
+    "japanese": "Japanese",
+    "proficient": "Full proficiency",
+    "native": "Native speaker",
+    "elementary": "Elementary"
   },
   "Interests": {
     "title": "Interests",

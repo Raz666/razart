@@ -28,7 +28,7 @@ export default function Experience() {
         </Card>
       </CareerEntry>
 
-      <Divider darker className='print:hidden' />
+      <Divider darker className="print:hidden" />
 
       <CareerEntry company={t('company.spaceOS')}>
         <Position
@@ -53,7 +53,7 @@ export default function Experience() {
         </Card>
       </CareerEntry>
 
-      <Divider darker className='print:hidden' />
+      <Divider darker className="print:hidden" />
 
       <CareerEntry company={t('company.bc')} locationType="hybrid">
         <Position
@@ -100,9 +100,13 @@ export default function Experience() {
         </Card>
       </CareerEntry>
 
-      <Divider darker className='print:hidden' />
+      <Divider darker className="print:hidden" />
 
-      <CareerEntry company={t('company.cegedim')} locationType="onSite">
+      <CareerEntry
+        company={t('company.cegedim')}
+        locationType="onSite"
+        relationType={'fullTime'}
+      >
         <Position
           position={t('position.engineer')}
           startDate={useDateString({ year: 2014, month: 9 })}
@@ -120,9 +124,9 @@ export default function Experience() {
         </Card>
       </CareerEntry>
 
-      <Divider darker className='print:hidden' />
+      <Divider darker className="print:hidden" />
 
-      <CareerEntry company={t('company.plum')} locationType="onSite">
+      <CareerEntry company={t('company.plum')} locationType="onSite" relationType={'partTime'}>
         <Position
           position={`${t('position.tester')}, ${t('position.fe')} `}
           startDate={useDateString({ month: 3 })}
@@ -140,7 +144,7 @@ export default function Experience() {
         </Card>
       </CareerEntry>
 
-      <Divider darker className='print:hidden' />
+      <Divider darker className="print:hidden" />
 
       <CareerEntry
         company={t('company.freelance')}
@@ -159,7 +163,7 @@ export default function Experience() {
         </Card>
       </CareerEntry>
 
-      <Divider darker className='print:hidden' />
+      <Divider darker className="print:hidden" />
 
       <CareerEntry
         company={t('company.univox')}
@@ -176,7 +180,7 @@ export default function Experience() {
         </Card>
       </CareerEntry>
 
-      <Divider darker className='print:hidden' />
+      <Divider darker className="print:hidden" />
 
       <CareerEntry
         company={t('company.efy')}
