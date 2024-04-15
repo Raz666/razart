@@ -119,20 +119,22 @@
       "courses": "Kursy",
       "master": "Praca magisterska: „Transformacja modeli wymagań w kod warstw prezentacji w technologii Flex”",
       "bachelor": "Praca licencjacka: „Projekt portalu internetowego — katalog multimedialny”"
-    },
-    "skills": "Umiejętności",
+    }
+  },
+  "Skills": {
+    "title": "Umiejętności",
     "dev": "Technologie",
     "platforms": "Platformy",
-    "soft": "Oprogramowanie",
-    "languages": {
-      "title": "Języki",
-      "english": "Angielski",
-      "polish": "Polski",
-      "japanese": "Japoński",
-      "proficient": "biegły",
-      "native": "ojczysty",
-      "elementary": "podstawowy"
-    }
+    "soft": "Oprogramowanie"
+  },
+  "Languages": {
+    "title": "Języki",
+    "english": "Angielski",
+    "polish": "Polski",
+    "japanese": "Japoński",
+    "proficient": "biegły",
+    "native": "ojczysty",
+    "elementary": "podstawowy"
   },
   "Interests": {
     "title": "Zainteresowania",

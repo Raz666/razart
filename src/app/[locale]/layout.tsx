@@ -5,6 +5,7 @@ import '@app/globals.css';
 import { mainFont } from '@app/ui/fonts';
 import Header from '@locale/header/page';
 import { Background, Divider } from '@components/index';
+import { Menu } from '../ui/Menu';
 
 export const metadata: Metadata = {
   title: 'RazArt',
@@ -21,18 +22,21 @@ export default function LocaleLayout({
   const t = useTranslations('Home');
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className="motion-safe:scroll-smooth">
       <body
-        className={`${mainFont.className} relative bg-black print:bg-white print:text-black`}
+        className={`${mainFont.className} bg-black print:bg-white print:text-black`}
       >
         <Background>
           <Header />
           <Divider />
+          <div className="relative mx-2 sm:mx-14 md:mx-auto md:max-w-screen-md">
+            <Menu />
 
-          {children}
+            {children}
 
-          <div className="invisible fixed -left-[18rem] bottom-[20rem] -rotate-90 self-start text-left text-xs opacity-50 print:visible">
-            {t('gdpr')}
+            <div className="invisible fixed -left-[18rem] bottom-[20rem] -rotate-90 self-start text-left text-xs opacity-50 print:visible">
+              {t('gdpr')}
+            </div>
           </div>
         </Background>
       </body>

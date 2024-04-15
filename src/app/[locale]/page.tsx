@@ -7,7 +7,7 @@ import { Interests } from './skills/Interests';
 
 export default function Home() {
   return (
-    <div className="mx-2 gap-4 sm:mx-14 md:mx-auto md:flex md:max-w-screen-md print:block">
+    <div className="gap-4 md:flex print:block">
       <div className="flex-1 basis-1/3">
         <div className="block gap-4 sm:flex md:block print:flex">
           <div className="flex-1 basis-2/3">
