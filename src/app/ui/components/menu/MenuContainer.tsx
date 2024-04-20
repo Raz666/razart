@@ -1,33 +1,12 @@
 'use client';
 
 import clsx from 'clsx';
-import { useTranslations } from 'next-intl';
-import Link from 'next/link';
 import { HTMLAttributes, useEffect, useState } from 'react';
 
-export const Menu = ({ ...props }: HTMLAttributes<HTMLDivElement>) => {
-  // const t = useTranslations();
-
-  const isMobile = window.innerWidth < 640;
-
-  const links = [
-    {
-      // name: t('Skills.title'),
-      name: 'Skills',
-      hash: '#skills',
-    },
-    {
-      // name: t('Experience.title'),
-      name: 'Experience',
-      hash: '#experience',
-    },
-    {
-      // name: t('Education.title'),
-      name: 'Education',
-      hash: '#education',
-    },
-  ] as const;
-
+export const MenuContainer = ({
+  children,
+  ...props
+}: { children: React.ReactNode } & HTMLAttributes<HTMLDivElement>) => {
   const [scrollStart, setScrollStart] = useState(false);
   const [scrollContinue, setScrollContinue] = useState(false);
   useEffect(() => {
@@ -38,7 +17,7 @@ export const Menu = ({ ...props }: HTMLAttributes<HTMLDivElement>) => {
   });
 
   return (
-    <div className="sticky top-2 z-10 inline-block w-full text-right font-light tracking-wide ">
+    <div className="sticky top-2 z-10 inline-block w-full text-right font-light tracking-wide print:hidden">
       <div
         className={clsx('w-full motion-safe:transition-all', {
           'translate-x-1/2 motion-safe:duration-[100ms]': !scrollStart,
@@ -59,13 +38,7 @@ export const Menu = ({ ...props }: HTMLAttributes<HTMLDivElement>) => {
             },
           )}
         >
-          <ul className="flex gap-6 ">
-            {links.map((link) => (
-              <li key={link.hash}>
-                <Link href={link.hash}>{link.name}</Link>
-              </li>
-            ))}
-          </ul>
+          {children}
         </nav>
       </div>
     </div>

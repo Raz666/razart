@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import Header from './Header';
 import { TopOverlay } from '@components/index';
+import LocaleSwitcher from '../../components/menu/LocaleSwitcher';
 
 export default function Top() {
   const t = useTranslations('Home');
@@ -21,6 +22,9 @@ export default function Top() {
           </p>
         </div>
       </TopOverlay>
+
+      
+      <LocaleSwitcher />
     </>
   );
 }

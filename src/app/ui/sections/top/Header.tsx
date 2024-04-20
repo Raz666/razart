@@ -6,15 +6,17 @@ import clsx from 'clsx';
 import { useEffect, useState } from 'react';
 
 export default function Header() {
+  const isPrint = window?.matchMedia('print').matches;
+
   const [scrollStart, setScrollStart] = useState(false);
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      setScrollStart(window.scrollY > 0);
+      setScrollStart(window.scrollY > 0 && !isPrint);
     });
-  });
+  }, [isPrint]);
 
   return (
-    <div className="sticky top-0 z-10 w-full ">
+    <div className="sticky top-0 z-10 w-full print:relative">
       <TopOverlay>
         <div
           className=" mx-auto lg:max-w-screen-md
@@ -27,7 +29,7 @@ export default function Header() {
             )}
           >
             <div
-              className={clsx('w-full motion-safe:transition-all', {
+              className={clsx('motion-safe:transition-all', {
                 'translate-x-0 motion-safe:duration-[400ms]': scrollStart,
                 'translate-x-1/2 motion-safe:duration-[100ms]': !scrollStart,
               })}
@@ -35,12 +37,10 @@ export default function Header() {
               <h1
                 className={clsx(
                   `w-fit 
-                  pt-0 
-                  text-6xl/snug motion-safe:transition-all 
-                  md:pt-6 
+                   motion-safe:transition-all 
                   `,
                   {
-                    '-translate-x-1/2 motion-safe:duration-[100ms]':
+                    '-translate-x-1/2 pt-0 text-6xl/snug motion-safe:duration-[100ms]  md:pt-6 ':
                       !scrollStart,
                   },
                   {
@@ -53,16 +53,16 @@ export default function Header() {
               </h1>
             </div>
             <div
-              className={clsx('w-full motion-safe:transition-all', {
+              className={clsx('motion-safe:transition-all', {
                 'translate-x-0 motion-safe:duration-[400ms]': scrollStart,
                 'translate-x-1/2 motion-safe:duration-[100ms]': !scrollStart,
               })}
             >
               <h2
                 className={clsx(
-                  'w-fit text-2xl motion-safe:transition-all ',
+                  'w-fit motion-safe:transition-all ',
                   {
-                    '-translate-x-1/2 motion-safe:duration-[100ms]':
+                    '-translate-x-1/2 text-2xl motion-safe:duration-[100ms]':
                       !scrollStart,
                   },
                   {

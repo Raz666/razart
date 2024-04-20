@@ -5,7 +5,7 @@ import '@app/globals.css';
 import { mainFont } from '@app/ui/fonts';
 import Header from '@locale/header/page';
 import { Background, Divider } from '@components/index';
-import { Menu } from '../ui/Menu';
+import { Menu } from '../ui/components/menu/Menu';
 import Top from '../ui/sections/top';
 
 export const metadata: Metadata = {
@@ -30,7 +30,7 @@ export default function LocaleLayout({
         <Background>
           <div className="relative">
             <Top />
-            <Divider className="sticky top-16 z-20" />
+            <Divider className="sticky top-16 z-20 print:relative print:top-auto" />
             <div className="relative mx-2 sm:mx-14 md:mx-auto md:max-w-screen-md">
               <Menu />
 
