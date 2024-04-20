@@ -6,6 +6,7 @@ import { mainFont } from '@app/ui/fonts';
 import Header from '@locale/header/page';
 import { Background, Divider } from '@components/index';
 import { Menu } from '../ui/Menu';
+import Top from '../ui/sections/top';
 
 export const metadata: Metadata = {
   title: 'RazArt',
@@ -27,15 +28,17 @@ export default function LocaleLayout({
         className={`${mainFont.className} bg-black print:bg-white print:text-black`}
       >
         <Background>
-          <Header />
-          <Divider />
-          <div className="relative mx-2 sm:mx-14 md:mx-auto md:max-w-screen-md">
-            <Menu />
+          <div className="relative">
+            <Top />
+            <Divider className="sticky top-16 z-20" />
+            <div className="relative mx-2 sm:mx-14 md:mx-auto md:max-w-screen-md">
+              <Menu />
 
-            {children}
+              {children}
 
-            <div className="invisible fixed -left-[18rem] bottom-[20rem] -rotate-90 self-start text-left text-xs opacity-50 print:visible">
-              {t('gdpr')}
+              <div className="invisible fixed -left-[18rem] bottom-[20rem] -rotate-90 self-start text-left text-xs opacity-50 print:visible">
+                {t('gdpr')}
+              </div>
             </div>
           </div>
         </Background>
