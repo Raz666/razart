@@ -6,7 +6,7 @@
       "line1": "Frontend developer with a knack for user experience and visual aesthetics.",
       "line2": "Passionate about long walks as well as loosing oneself in well written storytelling."
     },
-    "gdpr": "I authorize the processing of personal data contained in my curriculum vitae based on art. 13 GDPR 679/16."
+    "gdpr": "I authorise the processing of personal data contained in my curriculum vitae based on art. 13 GDPR 679/16."
   },
   "Experience": {
     "title": "Experience",
@@ -42,72 +42,78 @@
     },
     "spaceOS": {
       "desc": "I became part of a dynamic team of great developers working on an evolving startup project creating an app for workspace users and managers. My role was focused on bringing new designs to life in our web app.",
-      "hl1": "translating new design requirements into Angular code",
-      "hl2": "thoroughly testing my implementation",
-      "hl3": "keeping our codebase at top quality and efficiency",
-      "hl4": "taking active part in discussions about our organisation of work and technologies used",
-      "tech": "Angular 6, TypeScript, Sass, HTML5",
-      "tools": "VS Code, Fork, Chrome DevTools, Jira, GitHub"
+      "hl1": "Translated new design requirements into Angular code, ensuring seamless integration of visual elements with functional components.",
+      "hl2": "Conducted thorough testing of implementations to guarantee reliability and performance.",
+      "hl3": "Maintained the codebase at top quality and efficiency, adhering to best practices and coding standards.",
+      "hl4": "Participated actively in discussions about the organisation of work and technologies used, contributing insights and ideas to improve processes and workflows."
     },
     "bc": {
       "fe1": {
         "desc": "I joined a rapidly growing number of contractors working on a comprehensive platform designed to enhance planning, registering and administrating examination sessions. My primary role was to develop front-end applications in coordination with the back-end code being developed at the same time. As my experience and business knowledge grew, I transitioned to designing parts of the user interface from the scratch as well.",
-        "hl1": "proactive research on readily available technology applicable in the project",
-        "hl2": "implementing given prototypes and proposing corrections whenever needed",
-        "hl3": "ensuring the proper user experience as well as accessibility",
-        "hl4": "writing unit tests for my code",
-        "hl5": "debugging font-end code and support in debugging back-end code",
-        "hl6": "estimating time needed for front-end tasks",
-        "hl7": "creating high-fidelity UI prototypes",
-        "hl8": "doing peer reviews"
+        "hl1": "Conducted proactive research on available technologies applicable to the project, ensuring informed decision-making and optimal technology selection.",
+        "hl2": "Implemented provided prototypes and proposed necessary corrections to enhance functionality and usability.",
+        "hl3": "Ensured proper user experience and accessibility standards were met, enhancing usability and inclusivity.",
+        "hl4": "Maintained synchronisation between front-end and back-end code, facilitating seamless integration and collaboration across development teams.",
+        "hl5": "Wrote comprehensive unit tests for front-end code, ensuring code quality and reliability.",
+        "hl6": "Assisted in debugging both front-end and back-end code, providing valuable support in troubleshooting and issue resolution.",
+        "hl7": "Estimated time requirements for front-end tasks, aiding in project planning and resource allocation.",
+        "hl8": "Created high-fidelity UI prototypes, visualising design concepts and facilitating stakeholder understanding and feedback.",
+        "hl9": "Conducted peer reviews, fostering collaboration and code quality assurance through constructive feedback and collaboration."
       },
       "tl": {
-        "desc": "Over two years into the project gave me enough insight to take over a leadership role in my team. I would still design most of our prototypes but leave the development to my team and take on the responsibility for delivering whole functionalities. My focus was set on managing and meeting attainable business expectations while keeping high coding standards.",
-        "hl1": "keeping up to date with the big picture of the whole development process",
-        "hl2": "consulting development progress with architects to minimise technical debt",
-        "hl3": "doing peer review as well as keeping correct merge order",
-        "hl4": "configuring continuous integration environment and keeping it stable",
-        "hl5": "building and deploying newly developed code to the dedicated environment for testing",
-        "hl6": "holding meetings for the team (daily scrum, review / retro / planning / refinement sessions)",
-        "hl7": "building sprint plans based on material refined with the team",
-        "hl8": "coordinating work with other team leaders and development leader",
-        "hl9": "explaining and discussing effects of our work with the BI team",
-        "hl10": "supporting pre-release QA and UAT process in terms of environment maintenance, feedback gathering and scheduling improvements",
-        "hl11": "keeping my team members focused on our goals as well as their career progress"
+        "desc": "Over two years into the project gave me enough insight to take over a leadership role in my team. I would still design most of our prototypes but leave the development to my team and take on the responsibility for delivering whole functionalities.",
+        "hl1": "Managed and consistently met attainable business expectations while upholding high coding standards, ensuring the delivery of quality software products.",
+        "hl2": "Maintained a comprehensive understanding of the entire development process, facilitating effective decision-making and strategic planning.",
+        "hl3": "Consulted with architects to minimise technical debt and ensure the scalability and maintainability of the software architecture.",
+        "hl4": "Conducted peer reviews and managed merge processes to uphold code integrity and collaboration standards.",
+        "hl5": "Configured and maintained a stable continuous integration environment, facilitating seamless development workflows.",
+        "hl6": "Built and deployed newly developed code to dedicated testing environments, facilitating efficient testing and feedback cycles.",
+        "hl7": "Facilitated team meetings, including daily scrums as well as review, retro, planning and refinement sessions, to foster collaboration and alignment.",
+        "hl8": "Developed sprint plans collaboratively with the team, leveraging insights and input to optimise productivity and delivery.",
+        "hl9": "Coordinated work with other team leaders and the development leader to ensure cross-functional collaboration and alignment.",
+        "hl10": "Communicated and collaborated with the BI team to explain and discuss the impact of development work, fostering synergy and alignment.",
+        "hl11": "Supported pre-release QA and UAT processes by maintaining environments, gathering feedback, and scheduling improvements, ensuring successful product releases.",
+        "hl12": "Provided mentorship and support to team members, fostering focus on goals and facilitating career growth and development."
       },
       "fe2": {
         "desc": "I was welcomed back into a team building a brand new registration platform capable of scaling to offer new products as well as handling a variety of self-serve features.",
-        "hl1": "developing structures unifying data coming from up to 4 separate APIs in a way that stays seamless to the end user",
-        "hl2": "worked on an integration with translation management system along with switching the whole platform to a new set of translated endpoints",
-        "hl3": "ensured on-the-fly language switching when parts of the interface require API re-fetching",
-        "hl4": "built a mechanism handling API errors so that translated messages are easily managed",
-        "hl5": "TBD"
+        "hl1": "Demonstrated business value delivered by the team to stakeholders, showcasing tangible outcomes and achievements.",
+        "hl2": "Unified data from up to 4 separate APIs for a shared UI, streamlining processes and enhancing user experience.",
+        "hl3": "Brainstormed with our UX specialist on shapes and forms of UI elements, ensuring intuitive and user-friendly design.",
+        "hl4": "Made iterative improvements to the UI based on gathered insights, fostering continuous enhancement and refinement.",
+        "hl5": "Managed content still under development behind feature flags, allowing for controlled release and testing.",
+        "hl6": "Implemented A/B tests to optimise user engagement and drive performance improvements.",
+        "hl7": "Collaborated with the analytics team to properly capture user interactions, informing data-driven decision-making.",
+        "hl8": "Facilitated the onboarding process for new team members, ensuring seamless integration and knowledge transfer.",
+        "hl9": "Integrated with translation mechanisms to support multilingual functionality.",
+        "hl10": "Ensured both client and server-side translations were properly fetched on language switch, enhancing accessibility and user inclusivity."
       }
     },
     "cegedim": {
       "desc": "The division I worked in, the ECC (EMEA Customization Center), was responsible for deployment and technical support of Nexxus Mobile Intelligence — a leading customer relationship management system dedicated to life sciences on the market. We provided our technical skills as well as deep knowledge of the CRM in all of its supported versions to our pharmaceutical clients around the globe.",
-      "hl1": "front-end configuration of the CRM",
-      "hl2": "writing reports in PL/SQL and applying them in the CRM",
-      "hl3": "optimising and correcting existing PL/SQL queries",
-      "hl4": "enhancing user experience using server-side (C#) and client-side (Javascript) scripts",
-      "hl5": "finding and applying best solutions to user-reported requests for data analysis"
+      "hl1": "Configured the front-end interface of the CRM, optimising usability and functionality for end-users.",
+      "hl2": "Authored reports in PL/SQL and integrated them into the CRM, facilitating data-driven decision-making and analysis.",
+      "hl3": "Optimised and corrected existing PL/SQL queries, improving efficiency and accuracy in data retrieval.",
+      "hl4": "Enhanced user experience through the implementation of server-side (C#) and client-side (JavaScript) scripts, enhancing system functionality and interactivity.",
+      "hl5": "Addressed user-reported requests by identifying and implementing optimal solutions, fostering user satisfaction and system usability.",
+      "hl6": "Conducted data analysis to extract actionable insights and inform strategic decision-making processes, driving business success and growth."
     },
     "plum": {
-      "desc": "Plum is a small but feisty interactive agency specialized in e-commerce. Although I was officially employed as a tester, I quickly started doing daily tasks of a front-end developer.",
-      "hl1": "pre- and post-release tests",
-      "hl2": "Magento system management and configuration",
-      "hl3": "design, preparation, tests and sending newsletters using Freshmail",
-      "hl4": "product photos enhancement",
-      "hl5": "CSS code enhancement"
+      "desc": "Plum is a small but feisty interactive agency specialised in e-commerce. Although I was officially employed as a tester, I quickly started doing daily tasks of a front-end developer.",
+      "hl1": "Conducted pre- and post-release tests, ensuring software quality and reliability throughout the development lifecycle.",
+      "hl2": "Managed and configured Magento systems, optimising performance and functionality.",
+      "hl3": "Designed, prepared, tested, and distributed newsletters using Freshmail, fostering customer engagement and communication.",
+      "hl4": "Enhanced product photos to improve visual appeal and marketing effectiveness.",
+      "hl5": "Optimised CSS code to enhance website performance and user experience."
     },
     "freelance": {
-      "desc": "As a freelancer I used to design, build and install websites (using WordPress for content management), set up and manage Google Analytics and AdWords accounts, design logos, leaets, business cards and documents."
+      "desc": "As a freelancer, I specialised in designing, building, and installing websites, leveraging WordPress for content management. Additionally, I adeptly set up and managed Google Analytics and AdWords accounts to optimise online visibility and drive traffic. Beyond web development, I showcased my creativity by designing logos, leaflets, business cards, and various marketing materials, ensuring cohesive branding and effective communication strategies for clients."
     },
     "univox": {
-      "desc": "Univox was an on-line shop selling music on CDs and DVDs where I helped managing the product database as well as the sales process and created advertising content."
+      "desc": "At Univox, an online music shop offering CDs and DVDs, I played a pivotal role in managing the product database and overseeing the sales process. My responsibilities included updating product listings, ensuring accuracy and completeness, and managing inventory levels to meet customer demand. Furthermore, I created compelling advertising content to promote featured products and special offers, contributing to increased sales and customer engagement."
     },
     "efy": {
-      "desc": "I worked as a receptionist in a language school — providing customer service, carrying out entrance exams, helping with the image campaign with my picture editing skills."
+      "desc": "As a receptionist at a language school, I provided exceptional customer service to students and visitors, serving as the primary point of contact for inquiries and assistance. In addition to administrative tasks, I conducted entrance exams for prospective students, ensuring a smooth admissions process. Leveraging my proficiency in picture editing software, I also contributed to the school's image campaign by creating visually appealing materials and enhancing promotional content."
     }
   },
   "Education": {

@@ -24,6 +24,12 @@ export default function Experience() {
             <ListElement>{t('bc.fe2.hl2')}</ListElement>
             <ListElement>{t('bc.fe2.hl3')}</ListElement>
             <ListElement>{t('bc.fe2.hl4')}</ListElement>
+            <ListElement>{t('bc.fe2.hl5')}</ListElement>
+            <ListElement>{t('bc.fe2.hl6')}</ListElement>
+            <ListElement>{t('bc.fe2.hl7')}</ListElement>
+            <ListElement>{t('bc.fe2.hl8')}</ListElement>
+            <ListElement>{t('bc.fe2.hl9')}</ListElement>
+            <ListElement>{t('bc.fe2.hl10')}</ListElement>
           </Highlights>
         </Card>
       </CareerEntry>
@@ -44,12 +50,6 @@ export default function Experience() {
             <ListElement>{t('spaceOS.hl3')}</ListElement>
             <ListElement>{t('spaceOS.hl4')}</ListElement>
           </Highlights>
-          <CareerEntry.TitledSection title={t('tech')}>
-            {t('spaceOS.tech')}
-          </CareerEntry.TitledSection>
-          <CareerEntry.TitledSection title={t('tools')}>
-            {t('spaceOS.tools')}
-          </CareerEntry.TitledSection>
         </Card>
       </CareerEntry>
 
@@ -75,6 +75,7 @@ export default function Experience() {
             <ListElement>{t('bc.tl.hl9')}</ListElement>
             <ListElement>{t('bc.tl.hl10')}</ListElement>
             <ListElement>{t('bc.tl.hl11')}</ListElement>
+            <ListElement>{t('bc.tl.hl12')}</ListElement>
           </Highlights>
         </Card>
 
@@ -120,6 +121,7 @@ export default function Experience() {
             <ListElement>{t('cegedim.hl3')}</ListElement>
             <ListElement>{t('cegedim.hl4')}</ListElement>
             <ListElement>{t('cegedim.hl5')}</ListElement>
+            <ListElement>{t('cegedim.hl6')}</ListElement>
           </Highlights>
         </Card>
       </CareerEntry>
