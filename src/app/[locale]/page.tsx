@@ -4,6 +4,7 @@ import { Divider, Panel } from '@components/index';
 import { Education } from './skills/Education';
 import Languages from './skills/Languages';
 import { Interests } from './skills/Interests';
+import Summary from './Summary';
 
 export default function Home() {
   return (
@@ -36,10 +37,16 @@ export default function Home() {
 
       <div className="flex-1 basis-2/3">
         <Panel>
+          <Summary />
+        </Panel>
+
+        {/* <Divider className="mt-5" /> */}
+
+        <Panel>
           <Experience />
         </Panel>
 
-        <Divider className="mt-7 print:hidden" />
+        {/* <Divider className="mt-5" /> */}
 
         <Panel>
           <Education />

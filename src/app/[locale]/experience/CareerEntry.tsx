@@ -8,7 +8,7 @@ const CareerEntry = ({
 }: {
   company: string;
   relationType?: 'contract' | 'fullTime' | 'partTime' | null;
-  locationType?: 'remote' | 'hybrid' | 'onSite';
+  locationType?: 'remote' | 'hybrid' | 'onSite' | 'stationary';
   children: React.ReactNode;
 }) => {
   const t = useTranslations('Experience');
@@ -32,6 +32,8 @@ const CareerEntry = ({
         return t('location.hybrid');
       case 'onSite':
         return t('location.onsite');
+      case 'stationary':
+        return t('location.stationary');
     }
   };
 
@@ -71,12 +73,20 @@ export const Position = ({
   );
 };
 
-export const Highlights = ({ children }: { children: React.ReactNode }) => {
+export const Highlights = ({
+  title,
+  children,
+}: {
+  title?: string;
+  children: React.ReactNode;
+}) => {
   const t = useTranslations('Experience');
 
   return (
     <>
-      <h6 className="pb-1 pt-2 text-sm font-semibold">{t('highlights')}</h6>
+      <h6 className="pb-1 pt-2 text-sm font-semibold">
+        {title ?? t('highlights')}
+      </h6>
       <ul className="list-disc pl-5 text-sm font-light leading-relaxed">
         {children}
       </ul>
