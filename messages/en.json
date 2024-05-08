@@ -6,6 +6,12 @@
       "line1": "Frontend developer with a knack for user experience and visual aesthetics.",
       "line2": "Passionate about long walks as well as loosing oneself in well written storytelling."
     },
+    "summary": {
+      "title": "Summary",
+      "line1": "Passionate about enhancing user experiences, I thrive on meticulously crafting interfaces anyone can enjoy. Continuously expanding my knowledge in readability, accessibility, performance and aesthetics inspires me to refine and innovate within my craft.",
+      "line2": "My forte lies in envisioning the broader project landscape and long-term objectives. I excel at constructing a holistic model of a project, considering all relevant contexts, and leveraging this insight to drive impactful outcomes. Transforming complex project insights into compelling, example-based narratives is one of my most praised talents.",
+      "line3": "I've had the privilege of working with driven professionals on numerous occasions. It never ceases to amaze me how much can be accomplished in productive and friendly collaboration. Helping others as well as being able to ask for support at any stage of software development is what truly makes this job rewarding."
+    },
     "gdpr": "I authorise the processing of personal data contained in my curriculum vitae based on art. 13 GDPR 679/16."
   },
   "Experience": {
@@ -33,7 +39,8 @@
     "location": {
       "remote": "remote",
       "hybrid": "hybrid",
-      "onsite": "on-site"
+      "onsite": "on-site",
+      "stationary": "stationary"
     },
     "relation": {
       "contract": "contract",
